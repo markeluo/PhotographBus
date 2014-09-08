@@ -1,0 +1,393 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>Photo BUS</title>
+    <link href="Content/metrolui/css/metro-bootstrap.css" rel="stylesheet" />
+    <link href="Content/metrolui/css/metro-bootstrap-responsive.css" rel="stylesheet" />
+    <link href="Content/metrolui/css/iconFont.css" rel="stylesheet" />
+    <link href="Content/metrolui/css/docs.css" rel="stylesheet" />
+    <link href="Content/metrolui/js/prettify/prettify.css" rel="stylesheet" />
+ 
+    <script type="text/javascript" src="Scripts/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/jquery/jquery.widget.min.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/jquery/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/jquery/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/holder/holder.js"></script>
+
+    <script type="text/javascript" src="Content/metrolui/js/load-metro.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/docs.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/start-screen.js"></script>
+    <script type="text/javascript" src="Content/metrolui/js/datamanager.js"></script>
+</head>
+<body class="metro">
+    <div id="home_page" class="tile-area tile-area-dark">
+        <h1 class="tile-area-title fg-white">Start</h1>
+        <div class="user-id">
+            <div class="user-id-image">
+                <span class="icon-user no-display1"></span>
+                <img src="images/Battlefield_4_Icon.png" class="no-display">
+            </div>
+            <div class="user-id-name">
+                <span class="first-name">luo</span>
+                <span class="last-name">wanli</span>
+            </div>
+        </div>
+        <div id="HotTags" class="tile-group six" style="width:650px;">
+            <div class="tile-group-title">热门标签</div>
+        </div> <!-- End group -->
+
+        <div class="tile-group one">
+            <div class="tile-group-title">已关注</div>
+            <a class="tile half bg-darkBlue" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/a.jpg">
+                </div>
+            </a>
+            <a class="tile half bg-darkGreen" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/b.jpg">
+                </div>
+            </a>
+            <a class="tile half bg-darkPink" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/c.jpg">
+                </div>
+            </a>
+            <a class="tile half bg-orange" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/d.jpg">
+                </div>
+            </a>
+            <a class="tile half bg-lightBlue" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/e.jpg">
+                </div>
+            </a>
+            <a class="tile half bg-violet" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/f.jpg">
+                </div>
+            </a>
+            <a class="tile half bg-lightGreen" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/g.jpg">
+                </div>
+            </a>
+            <a class="tile half bg-steel" data-click="transform">
+                <div class="tile-content icon">
+                    <img src="userphotos/h.jpg">
+                </div>
+            </a>
+
+        </div> <!-- End tile group -->
+
+        <div class="tile-group double">
+            <div class="tile-group-title">个人中心</div>
+            <div class="tile bg-cyan" data-click="transform">
+                <div class="tile-content icon">
+                    <i class="icon-star-4"></i>
+                </div>
+                <div class="brand">
+                    <div class="label" style="margin-left: 30px;">个人收藏</div>
+                </div>
+            </div>
+            <div class="tile bg-darkIndigo" data-click="transform">
+                <div class="tile-content icon">
+                    <i class="icon-cloud-2"></i>
+                </div>
+                <div class="brand">
+                    <div class="label" style="margin-left: 30px;">个人下载</div>
+                </div>
+            </div>
+            <div class="tile bg-lightOlive" data-click="transform">
+                <div class="tile-content icon">
+                    <i class="icon-upload-2"></i>
+                </div>
+                <div class="brand">
+                    <div class="label" style="margin-left: 30px;">个人发布</div>
+                </div>
+            </div>
+            <div class="tile bg-teal" data-click="transform">
+                <div class="tile-content icon">
+                    <i class="icon-heart"></i>
+                </div>
+                <div class="brand">
+                    <div class="label" style="margin-left: 30px;">个人关注</div>
+                </div>
+            </div>
+        </div> <!-- End group -->
+ 
+    </div>
+    <div id="list_page" class="container">
+        <div class="input-control bg-white text" data-role="input-control">
+            <nav class="breadcrumbs" style="width: 400px;float: left;">
+                <ul></ul>
+            </nav><input id="list_searchtext" type="text" style="float: right;width:300px;">
+            <button id="searchbtn" class="btn-search"></button>
+        </div>
+        <div id="list_resultpages" class="pagination">
+        </div>
+        <div id="list_resultpanel" class="listview-outlook bg-white">
+        </div>
+        <div id="listhiddeninfo" style="display:none;"></div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    window.onload = function () {
+        LoadTagClassData();//热门标签分类加载
+    }
+    //加载热门分类标签数据
+    function LoadTagClassData() {
+        var postpars = {
+            MethodName: "GetHotTaglist_JSON",
+            Paras: JSON.stringify({ "topnumber": 5 }),
+            CallBackFunction: function (result) {
+                if (result.result == "true") {
+                    $("#taglist").find("div").remove();
+                    var strtagitem = "";
+                    for (var i = 0; i < result.data.length; i++) {
+                        strtagitem = "<div class='tile double live' data-role='live-tile' data-effect='' style='width:200px;' onclick='tagpanelclick(this)' data-value='" + result.data[i].Etag + "'>";
+                        for (var j = 0; j < result.data[i].Images.length; j++) {
+                            strtagitem += "<div class='tile-content image'><img key='" + result.data[i].Images[j].Key + "' src='" + result.data[i].Images[j].Path + "'></div>"
+                        }
+                        strtagitem += "<div class='tile-status bg-dark opacity'><span class='label fg-white'>" + result.data[i].Etag + "</span><span class='badge bg-cyan' style='right:0px;'>" + result.data[i].Sumnumber + "</span></div>"
+                        $("#HotTags").append(strtagitem);
+                    }
+                }
+            }
+        }
+        datamanager.ReadData(postpars);
+    }
+    //点击热门标签分类，获取分类标签文章列表
+    function tagpanelclick(obj) {
+        $(obj).parent().find("div[data-role='live-tile']").removeClass("selected");
+        $(obj).addClass("selected");
+        $("#home_page").hide();
+        $("#list_page").show();
+        var thistag=$(obj).data("value");
+
+        shownvbar(thistag);
+
+        querylistbytag(thistag,1,10);
+    }
+    function shownvbar(_thistag) {
+        var nvbarhtml = "<li><a href='#' data-page='home' onclick='nvbargotopage(this)'><i class='icon-home'></i></a></li>";
+        nvbarhtml += "<li><a href='#' data-page='list' onclick='nvbargotopage(this)'>文章列表</a></li>";
+        nvbarhtml += "<li class='active'><a href='#' data-page='' onclick='nvbargotopage(this)'>" + _thistag + "</a></li>";
+
+        $("#list_page").find(".breadcrumbs >ul").html(nvbarhtml);
+    }
+    function querylistbytag(_tagname, page, pagesize) {
+        $("#listhiddeninfo").data("typeinfo", { type: "tag", value: _tagname });
+        var postpars = {
+            MethodName: "GetListByTag_JSON",
+            Paras: JSON.stringify({ "tag": _tagname, "page":page, "pagesize":pagesize}),
+            CallBackFunction:showlistdata
+        }
+        datamanager.ReadData(postpars);
+    }
+    function querylistbykey(_key, page, pagesize) {
+        $("#listhiddeninfo").data("typeinfo", { type: "key", value: _key });
+        var postpars = {
+            MethodName: "GetListByNameKey_JSON",
+            Paras: JSON.stringify({ "key": _key, "page": page, "pagesize": pagesize }),
+            CallBackFunction: showlistdata
+        }
+        datamanager.ReadData(postpars);
+    }
+
+    //导航跳转
+    function nvbargotopage(obj) {
+        var targetpage = $(obj).data("page");
+        if (targetpage != null && targetpage != "") {
+            switch (targetpage) {
+                case "home":
+                    $("#home_page").show();
+                    $("#list_page").hide();
+                    break;
+                case "list":
+                    $("#list_page").show();
+                    $("#home_page").hide();
+                    break;
+                default:
+                    $("#home_page").show();
+                    $("#list_page").hide();
+                    break;
+            }
+        }
+    }
+    //显示结果列表
+    function showlistdata(result) {
+        $("#list_resultpanel").html("");
+        if (result.result == "true") {
+            //Pagesize,Sumnumber,Sumpage,Thispage
+            if (result.data != null && result.data.Items != null && result.data.Items.length > 0) {
+                var strnewitem = null;
+                for (var i = 0; i < result.data.Items.length; i++) {
+                    if (i == 0) {
+                        strnewitem = "<a href='#' class='list marked active' onclick='listitemselect(this)' data-key='" + result.data.Items[i].Key + "'>";
+                    } else {
+                        strnewitem = "<a href='#' class='list' onclick='listitemselect(this)' data-key='" + result.data.Items[i].Key + "'>";
+                    }
+
+                    strnewitem+="<div class='list-content'>";
+                    strnewitem += "<img src='" + result.data.Items[i].ThumbnailsData + "' class='icon'>";
+                    strnewitem += "<div class='data'>";
+                    strnewitem += "<span class='list-title'>" + result.data.Items[i].Title + "</span>";
+                    strnewitem += "<span class='list-subtitle'>标签:" + result.data.Items[i].Tag + "</span>";
+                    strnewitem += "<span class='list-remark'>" + result.data.Items[i].Summary + "</span>";
+                    strnewitem += "</div>";
+                    strnewitem += "</div></a>";
+                    $("#list_resultpanel").append(strnewitem);
+                }
+
+            }
+            listpagecontrol(result);//显示总记录数、页数等统计信息
+        }
+    }
+    //列表选中项更改
+    function listitemselect(thisobj) {
+        $("#list_resultpanel").find(".list").removeClass("marked").removeClass("active");
+        $(thisobj).addClass("marked").addClass("active");
+
+        var key = $(thisobj).data("key");
+        var title = $(thisobj).find("span[class='list-title']").html();
+        $.Dialog({
+            overlay: true,
+            shadow: true,
+            flat: true,
+            title: title,
+            content: '',
+            width: "1000px",
+            height:"600px",
+            onShow: function (_dialog) {
+                var content = _dialog.children('.content');
+                var postpars = {
+                    MethodName: "GetDetailByKey_JSON",
+                    Paras: JSON.stringify({ "key":key}),
+                    CallBackFunction: function (result) {
+                        content.css({ "height": "500px", "overflow-y": "auto" });
+                        content.html(result);
+                    }
+                }
+                datamanager.ReadHTML(postpars);
+            }
+        });
+    }
+    //翻页控制
+    function listpagecontrol(result){
+        if (result.result == "true") {
+            //result.data:Pagesize: 10 Sumnumber: 115 Sumpage: 12 Thispage: 1
+            //list_resultpages
+            var listpagestr = "<ul><li class='first'><a><i class='icon-first-2'></i></a></li>";
+            listpagestr += "<li class='prev'><a><i class='icon-previous'></i></a></li>";
+            if (result.data != null) {
+                var tempstart = result.data.Thispage - 2;
+                if (tempstart > 1) {
+                    listpagestr += "<li class='spaces prev'><a>...</a></li>";
+                }
+                for (var i = tempstart; i < result.data.Thispage; i++) {
+                    if (i>0) {
+                        listpagestr += "<li><a>"+i+"</a></li>";
+                    }
+                }
+
+                listpagestr += "<li class='active'><a>" + result.data.Thispage + "</a></li>";
+
+                var tempend = result.data.Thispage + 2;
+                for (var i = result.data.Thispage+1; i <= tempend; i++) {
+                    if (i <=result.data.Sumpage) {
+                        listpagestr += "<li><a>" + i + "</a></li>";
+                    }
+                }
+                if (tempend < result.data.Sumpage) {
+                    listpagestr += "<li class='spaces next'><a>...</a></li>";
+                }
+            }
+            listpagestr += "<li class='next'><a><i class='icon-next'></i></a></li>";
+            listpagestr += "<li class='last'><a><i class='icon-last-2'></i></a></li>";
+            listpagestr += "<li class='sumtol' suminfo='" + result.data.Sumnumber + "#" + result.data.Sumpage + "'>合计 " + result.data.Sumpage + " 页,共 " + result.data.Sumnumber + " 条记录!</li>";
+            listpagestr += "</ul>";
+            $("#list_resultpages").html(listpagestr);
+
+            //翻页单击事件
+            $("#list_resultpages").find("li").unbind().bind("click", function (ev) {
+                var suminfo = $("#list_resultpages").find("li[class='sumtol']").attr("suminfo").split("#");
+                suminfo = { sumnumber: eval(suminfo[0]), sumpages: eval(suminfo[1]) };
+                var thispage = eval($("#list_resultpages").find("li[class='active']>a").html());
+
+                var newdirpage = thispage;
+                var thisdir = $(this).attr("class");
+                if (thisdir != null && thisdir != "") {
+
+                    //region 判断类型 
+                    switch (thisdir) {
+                        case "first":
+                            newdirpage = 1;
+                            break;
+                        case "prev":
+                            if (newdirpage > 1) {
+                                newdirpage--;
+                            }
+                            break;
+                        case "spaces prev":
+                            if (newdirpage > 1) {
+                                newdirpage--;
+                            }
+                            break;
+                        case "spaces next":
+                            if (newdirpage < suminfo.sumpages) {
+                                newdirpage++;
+                            }
+                            break;
+                        case "next":
+                            if (newdirpage < suminfo.sumpages) {
+                                newdirpage++;
+                            }
+                            break;
+                        case "last":
+                            newdirpage = suminfo.sumpages;
+                            break;
+                    }
+                    //endregion 
+
+                } else {
+                    newdirpage =eval($(this).find("a").html());
+                }
+                if (thispage == newdirpage) {
+
+                } else {
+                    var typeinfo = $("#listhiddeninfo").data("typeinfo");
+                    if (typeinfo != null) {
+                        if (typeinfo.type == "tag") {
+                            querylistbytag(typeinfo.value, newdirpage, 10);
+                        } else {
+                            querylistbykey(typeinfo.value, newdirpage, 10);
+                        }
+                        
+                    }
+                }
+            });
+        } else {
+            $("#list_resultpages").html("未找到符合条件的记录!");
+        }
+    }
+    //资源搜索
+    $("#searchbtn").bind("click", function (ev) {
+        var searchkey = $("#list_searchtext").val();
+        if (searchkey == "") {
+            $("#list_searchtext").val("搜索内部不可为空！").css({ "border-color": "#e51400" });
+        } else {
+            shownvbar(searchkey);
+            querylistbykey(searchkey, 1, 10);
+        }
+    });
+    $("#list_searchtext").focus(function () {
+        $("#list_searchtext").val("").css({ "border-color": "none" });
+    })
+</script>
+

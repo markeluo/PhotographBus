@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataBaseConfig>
+	<DataBases>
+		<DbInfo IsUs="1">
+			<File>E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\Database\Essaydb.db3</File>
+			<ReMarke>扫描数据1</ReMarke>
+			<MiniImgPath>E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\miniimg\</MiniImgPath>
+      <DetailImgPath>E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\detailimg\</DetailImgPath>
+		</DbInfo>
+	</DataBases>
+</DataBaseConfig> 

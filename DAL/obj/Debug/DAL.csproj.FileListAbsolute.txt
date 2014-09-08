@@ -1,0 +1,24 @@
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\DAL.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\DAL.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\DBConfigControl.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\System.Data.SQLite.DLL
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\DBConfigControl.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\obj\Debug\DAL.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\obj\Debug\DAL.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\ConfigFile\DbTypeConfig.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\ConfigFile\LtDBSetting.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\DBcreate\LtdbConfig.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\DAL\bin\Debug\DBcreate\LtScripts\Tables.sql
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\ConfigFile\DbTypeConfig.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\ConfigFile\LtDBSetting.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\DBcreate\LtdbConfig.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\DBcreate\LtScripts\Tables.sql
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\DAL.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\DAL.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\DBConfigControl.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\System.Data.SQLite.DLL
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\bin\Debug\DBConfigControl.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\obj\Debug\DAL.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\DAL\obj\Debug\DAL.pdb

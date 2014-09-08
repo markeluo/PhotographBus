@@ -1,0 +1,4 @@
+﻿var METRO_AUTO_REINIT;
+var METRO_LOCALE;
+var METRO_WEEK_START;
+var METRO_DIALOG = false;

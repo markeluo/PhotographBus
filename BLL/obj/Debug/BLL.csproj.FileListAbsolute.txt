@@ -1,0 +1,28 @@
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\BLL.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\BLL.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\DAL.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\DBConfigControl.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\System.Data.SQLite.DLL
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\DAL.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\DBConfigControl.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\obj\Debug\BLL.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\obj\Debug\BLL.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\ConfigFile\DbTypeConfig.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\ConfigFile\LtDBSetting.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\DBcreate\LtdbConfig.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\BLL\bin\Debug\DBcreate\LtScripts\Tables.sql
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\ConfigFile\DbTypeConfig.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\ConfigFile\LtDBSetting.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\DBcreate\LtdbConfig.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\DBcreate\LtScripts\Tables.sql
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\BLL.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\BLL.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\DAL.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\DBConfigControl.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\System.Data.SQLite.DLL
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\DAL.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\bin\Debug\DBConfigControl.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\obj\Debug\BLL.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\BLL\obj\Debug\BLL.pdb

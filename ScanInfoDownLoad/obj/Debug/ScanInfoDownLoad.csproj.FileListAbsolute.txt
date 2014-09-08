@@ -1,0 +1,40 @@
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.csprojResolveAssemblyReference.cache
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.Form1.resources
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.Properties.Resources.resources
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.csproj.GenerateResource.Cache
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ScanInfoDownLoad.exe.config
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ScanInfoDownLoad.exe
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ScanInfoDownLoad.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\BLL.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBConfigControl.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\System.Data.SQLite.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DAL.dll
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\BLL.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBConfigControl.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DAL.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.exe
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.pdb
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ConfigFile\DbTypeConfig.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ConfigFile\LtDBSetting.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBcreate\LtdbConfig.xml
+C:\Users\markeluo\Desktop\buslistdownload\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBcreate\LtScripts\Tables.sql
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ScanInfoDownLoad.exe.config
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.exe
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ConfigFile\DbTypeConfig.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ConfigFile\LtDBSetting.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBcreate\LtdbConfig.xml
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBcreate\LtScripts\Tables.sql
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ScanInfoDownLoad.exe
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\ScanInfoDownLoad.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\BLL.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBConfigControl.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\System.Data.SQLite.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DAL.dll
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\BLL.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DBConfigControl.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\bin\Debug\DAL.pdb
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.csprojResolveAssemblyReference.cache
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.Form1.resources
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.Properties.Resources.resources
+E:\帮助文档与实例\NET 相关\WinForm相关\摄影巴士网数据\程序源码\ScanInfoDownLoad\ScanInfoDownLoad\obj\Debug\ScanInfoDownLoad.csproj.GenerateResource.Cache

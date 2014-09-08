@@ -1,0 +1,17 @@
+
+A.程序结构
+   BLL:业务逻辑处理层
+   DAL：数据访问处理层
+   DBConfigCotnrol:数据配置信息控制管理
+   lib:第三方引用类库
+   packages:VS自己引用第三方前端js\css 资源
+   scanInfoDownLoad:负责摄影BUS网数据获取并存储
+   webservice:负责使用scanInfoDownLoad 获取的数据进行展示
+
+B.数据
+  由于图片和数据文件过大，原本应该存在于ScanInfoDownLoad\bin\Debug 
+  中的几个数据文件夹目前备份到了百度云，账号：563944808 存储路径为：我的网盘\我的应用数据\摄影巴士网程序数据.rar
+  使用时需要将其解压并将目录中的几个子目录都复制到Debug 目录中即可
+
+
+
